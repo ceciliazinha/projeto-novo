@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8052408144208719153}
   - component: {fileID: 8052408144208719152}
+  - component: {fileID: 3008401795945871747}
   m_Layer: 10
   m_Name: FlorResultado
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,3 +80,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!70 &3008401795945871747
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8052408144208719154}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.29825464, y: -0.037873507}
+  m_Size: {x: 0.7945246, y: 1.1448557}
+  m_Direction: 0

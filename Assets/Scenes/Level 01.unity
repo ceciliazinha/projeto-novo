@@ -1887,9 +1887,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1230243134}
-  - component: {fileID: 1230243133}
   - component: {fileID: 1230243135}
   - component: {fileID: 1230243136}
+  - component: {fileID: 1230243133}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1906,7 +1906,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1230243132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fe50d9d22f736440a2a9c5788f4628a, type: 3}
+  m_Script: {fileID: 11500000, guid: e4fa1d185a9c61949ac3da1eef0a70bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TapeSpeed: {x: -2, y: 0, z: 0}

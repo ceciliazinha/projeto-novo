@@ -1911,6 +1911,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TapeSpeed: {x: -2, y: 0, z: 0}
   Tape: {fileID: 1877530736}
+  uiComponetes:
+    hud:
+      txtCoinCount: {fileID: 948750553}
+      txtLifeCount: {fileID: 101852687}
+      panelHud: {fileID: 1610456388}
 --- !u!4 &1230243134
 Transform:
   m_ObjectHideFlags: 0
@@ -2163,7 +2168,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 131.8, y: -61.8}
+  m_AnchoredPosition: {x: 131.8, y: -61.800003}
   m_SizeDelta: {x: 231.2, y: 78.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273690658
@@ -2971,7 +2976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -140, y: -61.799976}
+  m_AnchoredPosition: {x: -140, y: -61.799973}
   m_SizeDelta: {x: 231.19995, y: 78.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1535558527

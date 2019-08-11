@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Collectables
   - Ghost
+  - Gift
   layers:
   - Default
   - TransparentFX

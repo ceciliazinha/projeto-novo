@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1198628979769591995}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pos2
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 264111736067967501}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pos1
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
@@ -71,9 +71,9 @@ GameObject:
   - component: {fileID: 6716710966717085381}
   - component: {fileID: 337065710768639075}
   - component: {fileID: 689363254300616786}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GhostMoving2
-  m_TagString: Untagged
+  m_TagString: Ghost
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,19 +124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a5bbaee3ce91e441919e96511680694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 8341072235319236248, guid: de29aa43bd35b5349a8ad519a78590e2, type: 3}
+  prefab: {fileID: 1802951414561883258, guid: 01bbc52f4c2041342935be427de406bd, type: 3}
   spawnPoint: {fileID: 7586706748764256922}
   waitTime: 3
   projectileSpeed: 3
   directions:
   - {x: -1, y: 0, z: 0}
-  - {x: -0.7, y: 0.7, z: 0}
-  - {x: 0, y: 1, z: 0}
-  - {x: 0.7, y: 0.7, z: 0}
   - {x: 1, y: 0, z: 0}
-  - {x: 0.7, y: -0.7, z: 0}
-  - {x: 0, y: -1, z: 0}
-  - {x: -0.7, y: -0.7, z: 0}
 --- !u!1001 &2858828855763459787
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -144,6 +138,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6716710966717085381}
     m_Modifications:
+    - target: {fileID: 5685227340776088657, guid: 9c93ac0c6f534e040a58e423853f0008,
+        type: 3}
+      propertyPath: m_Name
+      value: Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685227340776088657, guid: 9c93ac0c6f534e040a58e423853f0008,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5685227340776088668, guid: 9c93ac0c6f534e040a58e423853f0008,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -197,16 +201,6 @@ PrefabInstance:
     - target: {fileID: 5685227340776088668, guid: 9c93ac0c6f534e040a58e423853f0008,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5685227340776088657, guid: 9c93ac0c6f534e040a58e423853f0008,
-        type: 3}
-      propertyPath: m_Name
-      value: Ghost
-      objectReference: {fileID: 0}
-    - target: {fileID: 5685227340776088657, guid: 9c93ac0c6f534e040a58e423853f0008,
-        type: 3}
-      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

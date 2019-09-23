@@ -19,6 +19,10 @@ public class SimpleMovie : MonoBehaviour
     [SerializeField]
 
     private float LimitRight = 8f;
+
+    
+
+    public FixedJoystick joystick;
     
     void Start()
     {
@@ -28,10 +32,10 @@ public class SimpleMovie : MonoBehaviour
     
     void Update()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        float verticalInput = Input.GetAxisRaw("Vertical");
-
-        Vector3 velocity = new Vector3(horizontalInput, verticalInput, 0f) * SpeedFactor;
+        float horizontal = joystick.Horizontal;
+        float vertical = joystick.Vertical;
+        
+        Vector3 velocity = new Vector3(horizontal, vertical, 0f) * SpeedFactor;
         
         transform.position = transform.position + velocity * Time.deltaTime;
 

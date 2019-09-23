@@ -7,7 +7,7 @@ public class MoveByRigidBody : MonoBehaviour
    
     [SerializeField]
     private float SpeedFactor = 10f;
-
+    public FixedJoystick joystick;
     
     private Rigidbody2D Rb;
 
@@ -19,9 +19,9 @@ public class MoveByRigidBody : MonoBehaviour
    
     void Update()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        float verticalInput = Input.GetAxisRaw("Vertical");
+        float horizontal = joystick.Horizontal;
+        float vertical = joystick.Vertical;
 
-        Rb.velocity = new Vector3(horizontalInput, verticalInput, 0f) * SpeedFactor;
+        Rb.velocity = new Vector3(horizontal, vertical, 0f) * SpeedFactor;
     }
 }

@@ -952,7 +952,6 @@ GameObject:
   - component: {fileID: 2064344530}
   - component: {fileID: 2064344529}
   - component: {fileID: 2064344528}
-  - component: {fileID: 2064344527}
   - component: {fileID: 2064344526}
   m_Layer: 8
   m_Name: Girl
@@ -973,19 +972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6883fbed9275d4f4ab18856c47c27ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2064344527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2064344525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efe8aae040fbb3042b4d293ca678a6cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SpeedFactor: 10
 --- !u!70 &2064344528
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

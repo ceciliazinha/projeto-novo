@@ -22,6 +22,10 @@ public class PlayerControl : MonoBehaviour
             
         }
 
+        if(other.gameObject.CompareTag("Forb")){
+            KillPlayer();            
+        }
+
         else if (other.gameObject.layer == LayerMask.NameToLayer("Enemies")){
             HurtPlayer();
         }

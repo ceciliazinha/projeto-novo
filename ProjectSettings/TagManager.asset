@@ -8,6 +8,7 @@ TagManager:
   - Ghost
   - Gift
   - Projectile
+  - Forb
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - Collectibes
   - Platforms
   - Camera
-  - 
+  - Forb
   - 
   - 
   - 

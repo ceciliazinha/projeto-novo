@@ -404,12 +404,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textArea: {fileID: 979024082}
   paragraphs:
-  - Seja bem vindo.
-  - Esse jogo e um projeto de alunos do ensino medio.
+  - Sejam bem-vindos.
+  - "Esse jogo \xE9 um projeto de alunos do ensino m\xE9dio."
   - Tenha isso em mente quando for avaliar.
-  - Se divirta!.
-  waitLetter: 0.1
-  waitParagraph: 3
+  - Divirta-se!.
+  waitLetter: 0.05
+  waitParagraph: 1.2
 --- !u!4 &2048673897
 Transform:
   m_ObjectHideFlags: 0
